@@ -1,9 +1,0 @@
----
-name: usercontent
----
-LeftAndMain:
-  extra_requirements_javascript:
-    - usercontent/javascript/UserContent.js
-
-  extra_requirements_css:
-    - usercontent/css/ContentFieldEditor.css

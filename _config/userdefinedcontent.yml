@@ -1,0 +1,9 @@
+---
+name: userdefinedcontent
+---
+LeftAndMain:
+  extra_requirements_javascript:
+    - userdefinedcontent/javascript/UserContent.js
+
+  extra_requirements_css:
+    - userdefinedcontent/css/ContentFieldEditor.css
