@@ -1,0 +1,266 @@
+/**
+ * User Defined Form Builder CSS
+ *
+ */
+li.class-UserDefinedForm > a.jstree-pageicon { background-position: 0 -64px; }
+
+.page-icon.class-UserDefinedForm {
+	background-position: 0 -64px;
+}
+
+.pull-left {
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+.editable-content-icons{
+	width: 62px;
+}
+.editable-content-title-field {
+	float:left;
+	padding: 3px 5px;
+}
+
+.editable-content-title-field input{
+	height: 20px;
+	line-height: 20px;
+	padding: 5px;
+}
+
+.field-actions a{
+	line-height: 35px;
+	padding: 0 20px;
+}
+
+/* Add a Field Menu 
+---------------------------------------- */
+.MenuHolder {
+	color: #333;
+	border: 1px solid #ddd;
+	background: #F4F4F4;
+	overflow: hidden;
+	width: 100%;
+}
+	.MenuHolder h2 {
+		float: left;
+		margin-left: 10px;
+	}
+	
+	.MenuHolder select {
+		position: relative;
+		display: block;
+		width: 200px;
+		height: 34px;
+		padding: 6px 45px 6px 15px;
+		color: #555555;
+		border: none;
+		background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
+		background-image: -webkit-linear-gradient(#ffffff, #f2f2f2);
+		background-image: -moz-linear-gradient(#ffffff, #f2f2f2);
+		background-image: -o-linear-gradient(#ffffff, #f2f2f2);
+		background-image: linear-gradient(#ffffff, #f2f2f2);
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		-o-border-radius: 4px;
+		border-radius: 4px;
+		border: 1px solid #e5e5e5;
+		outline: none;
+		z-index: 99;
+		cursor: pointer;
+		font-size: 16px;
+		font-size: 1rem;
+		font-weight: 600;
+		margin: 11px 0 2px 1.2%;
+	}
+	.MenuHolder.action {
+		float: left;
+		margin: 14px 0 0 8px;
+		font-size: 11px;
+		padding: 5px 10px;
+	}
+	
+/* Options / Settings Area 
+---------------------------------------- */
+.FormOptions {
+	padding: 10px 0 0 0;
+}
+
+
+
+
+/* Field Listing
+---------------------------------------- */	
+.EditableContentField {
+		margin: 2px;
+		padding: 3px 0;
+		border-top: 1px solid #ced7dc;
+		width: 100%;
+		overflow: hidden;
+	}
+	.EditableContentField.expanded {
+		background-color: #ced7dc;
+	}
+		.EditableContentField.fieldHandler,
+		.EditableContentField.handle {
+			cursor: move;
+		}
+		.EditableContentField.fieldInfo {
+			float: left;
+			padding-right: 10px;
+		}
+		.EditableContentField.fieldActions {
+			float: left;
+			margin-top: 10px;
+		}
+			.EditableContentField.fieldActions a {
+				padding: 0 5px 5px 20px;
+				font-size: 12px;
+			}
+				.EditableContentField.moreOptions {
+					background: url(../../cms/images/edit.gif) no-repeat top left;
+				}
+					.EditableContentField.moreOptions.showing {
+						color: #666;
+						text-decoration: none;
+					}
+				.EditableContentField.delete {
+					background: url(../../cms/images/delete.gif) no-repeat top left;
+				}
+
+		.EditableContentField input {
+			width: 250px;
+			margin-left: 0px;
+		}
+	
+		/** Field Options **/
+		
+		.EditableContentField div.extraOptions {
+			display: block;
+			overflow:hidden;
+			padding: 3px;
+			clear: both;			
+		}
+		.EditableContentField div.extraOptions.hidden {
+			display: none;
+		}
+			
+				.EditableContentField.extraOptions.handle {
+					float: left;
+					margin-right: 3px;
+				}
+				.EditableContentField.extraOptions ul {
+					padding: 5px 0;
+				}
+					.EditableContentField.extraOptions li {
+						padding: 3px 0;
+						width: 100%;
+						overflow: hidden;
+					}
+				.EditableContentField.extraOptions a {
+					background: none;
+				}
+				.EditableContentField.extraOptions input {
+					font-size: 11px;
+					padding: 2px;
+					float: left;
+				}
+				.EditableContentField.extraOptions.deleteOption {
+					width: 20px;
+					margin: 4px 0 0 4px;
+					background: none;
+					height: 20px;
+					float: left;
+					display: block;
+				}
+				.EditableContentField.extraOptions select {
+					width: 221px;
+				}
+				.EditableContentField.extraOptions.chzn-drop input {
+					font-size: 12px;
+					padding: 4px 20px 4px 5px;
+					float: none;
+				}
+				.EditableContentField a.addableOption,
+				.EditableContentField a.addCondition {
+					background: url(../../cms/images/add.gif) no-repeat top left;
+					padding: 1px 0 2px 20px;
+					font-size: 12px;
+					width: auto;
+					margin-left: 3px;
+				}
+				/* Field Options Group */
+				.fieldOptionsGroup {
+					padding: 4px 8px 8px 8px;
+					margin: 5px;
+					border: 1px solid #bbb;
+				}
+					.fieldOptionsGroup legend {
+						font-size: 15px;
+						padding: 0 4px;
+					}
+				/* Field Lengths */
+				.EditableContentField.fieldgroupField {
+					float: left;
+				}
+					.EditableContentField.fieldgroupField label {
+						float: left;
+						padding: 0 4px;
+					}
+					.EditableContentField.fieldgroupField input {
+						width: 80px;
+					}
+			.EditableContentField.middleColumn {
+				background: none;
+			}
+			/* CHECKBOX */
+			.EditableContentField.checkbox { }
+			
+				.EditableContentField.checkbox input {
+					float: left;
+					width:auto;
+					margin: 0 8px 0 0;
+				}
+			
+		/* CUSTOM RULES */
+		.customRules {
+			clear: both;
+		}
+			.customRules li {
+				clear: both;
+			}
+				.customRules li.firstField {
+					padding-bottom: 5px;
+					margin: 0 5px;
+					border-bottom: 1px solid #bbb;
+				}
+				.customRules label {
+					float: left;
+					margin: 0;
+					padding: 2px 4px;
+					font-size: 11px;
+				}
+				.customRules select {
+					float: left;
+					font-size: 11px;
+					width: 120px;
+					margin-right: 4px;
+				}
+				.customRules a {
+					background: none;
+					width: 20px;
+					float: left;
+				}
+				
+		/* HIDE */
+		 li.EditableContentField.hidden {
+			display: none !important;
+		}
+
+		/* Holder to prevent form from collapsing */
+		.removed-form-field {
+			height: 40px;
+			display: block;
+			overflow: hidden;
+		}
